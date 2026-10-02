@@ -1,0 +1,106 @@
+{
+  "slug": "consoleclear",
+  "box": 128,
+  "date": "2026-10-03",
+  "title": "ConsoleClear",
+  "question": "How does a PlayStation work?",
+  "hook": "Sixty times a second, a console reads your thumbs, runs a whole world and paints 8 million pixels, all in 16.7 milliseconds. Open one up in 3D and see how a PlayStation does it, and why it needs so much cooling.",
+  "thumbText": "HOW A PLAYSTATION WORKS",
+  "field": "computing",
+  "minutes": 14,
+  "tags": [
+    "playstation",
+    "game console",
+    "PS5",
+    "GPU",
+    "frame rate",
+    "ray tracing",
+    "SSD",
+    "controller",
+    "stick drift",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A computer built for one job",
+      "text": "A games console is a computer with every part chosen in advance. In a PlayStation 5, one chip holds an 8-core CPU and the GPU. Round it sit 16 GB of memory, an 825 GB SSD, a disc drive, a 350 W power supply and a large heatsink with a 120 mm fan."
+    },
+    {
+      "title": "One frame every 16.7 milliseconds",
+      "text": "Nothing in a game is drawn in advance. For every frame the console reads the controller, runs the game's rules on the CPU, sends draw calls to the GPU and stores the finished picture for the TV. At 60 frames a second that must all fit in 16.7 ms. Miss the deadline and 60 fps drops to 30."
+    },
+    {
+      "title": "Triangles into pixels",
+      "text": "Game worlds are skins of triangles. The GPU places every corner on the screen, finds which pixels each triangle covers, then works out a colour for each pixel. Ray tracing adds rays fired towards lights and off shiny surfaces for true shadows and reflections. A 4K picture has 8.3 million pixels, so the work is huge."
+    },
+    {
+      "title": "Why loading got fast",
+      "text": "A hard disk must swing an arm to the right track and wait for the platter to turn, thousands of times per level. An SSD has no moving parts and reads any flash cell directly. The PS5's SSD reads 5.5 GB a second, and a chip unpacks compressed game data on the way in."
+    },
+    {
+      "title": "A controller is sensors and motors",
+      "text": "Each thumb stick turns two potentiometers, and when their carbon tracks wear the stick drifts. Triggers can push back with a motor and worm gear. Voice coils, the motors of loudspeakers, make detailed vibration. A Bluetooth link carries it all, and every step adds a little lag."
+    },
+    {
+      "title": "200 watts of heat",
+      "text": "Almost all the electricity a console uses becomes heat. Liquid metal passes it from the chip to copper, heat pipes carry it to a stack of fins, and a fan blows air through them. A hotter chip makes the fan spin faster, and noise climbs steeply with fan speed."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "System-on-chip",
+      "def": "One chip that holds the CPU, the GPU and more. A console's main processor is one."
+    },
+    {
+      "term": "Frame",
+      "def": "One complete picture of the game. Consoles draw 30, 60 or 120 of them every second."
+    },
+    {
+      "term": "Frame budget",
+      "def": "The time allowed for one frame: 16.7 ms at 60 frames a second, 8.3 ms at 120."
+    },
+    {
+      "term": "Rasterising",
+      "def": "Working out which pixels each triangle covers on the screen."
+    },
+    {
+      "term": "Ray tracing",
+      "def": "Following rays of light through a scene to get true shadows and reflections."
+    },
+    {
+      "term": "Upscaling",
+      "def": "Drawing a picture with fewer pixels, then enlarging it to fill the screen."
+    },
+    {
+      "term": "SSD",
+      "def": "Storage made of flash memory chips. With no moving parts, it can read any data at once."
+    },
+    {
+      "term": "Stick drift",
+      "def": "A worn thumb stick reporting movement when no one is touching it."
+    },
+    {
+      "term": "Heat pipe",
+      "def": "A sealed copper tube that moves heat by boiling a liquid at one end and condensing it at the other."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "consoleclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

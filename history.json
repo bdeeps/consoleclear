@@ -1,0 +1,943 @@
+{
+ "title": "The history of the games console",
+ "tagline": "From a dot on an oscilloscope in 1958 to machines that trace rays of light sixty times a second.",
+ "intro": "The first video games were built by physicists and students to show off laboratory machines. In 1972 a box that plugged into a television brought them home. Since then consoles have crashed, recovered, moved from cartridges to discs to downloads, and grown from a handful of logic chips into computers that paint millions of pixels every frame.",
+ "eras": [
+  {
+   "id": "lab",
+   "name": "Games in the laboratory",
+   "from": 1958,
+   "to": 1971,
+   "color": "#c49bff",
+   "summary": "Scientists and students make games on oscilloscopes and room-sized computers. One engineer wonders whether a television could play them."
+  },
+  {
+   "id": "first",
+   "name": "The first consoles",
+   "from": 1972,
+   "to": 1984,
+   "color": "#ffb547",
+   "summary": "Boxes for the television go on sale. Cartridges turn them into small computers. Then the American market collapses."
+  },
+  {
+   "id": "cart",
+   "name": "Cartridges from Japan",
+   "from": 1983,
+   "to": 1993,
+   "color": "#7be08c",
+   "summary": "Nintendo and Sega rebuild the business with better games, better controllers and 16-bit chips."
+  },
+  {
+   "id": "disc",
+   "name": "Discs and 3D",
+   "from": 1994,
+   "to": 2004,
+   "color": "#8ef0ff",
+   "summary": "Cheap optical discs and chips that draw polygons bring 3D worlds. Sony and then Microsoft join in."
+  },
+  {
+   "id": "online",
+   "name": "Online and high definition",
+   "from": 2005,
+   "to": 2019,
+   "color": "#ff7a59",
+   "summary": "Consoles connect to the internet, draw in high definition, and try new ways to play."
+  },
+  {
+   "id": "ssd",
+   "name": "Fast storage and ray tracing",
+   "from": 2020,
+   "to": 2026,
+   "color": "#ff5a8a",
+   "summary": "Solid-state drives all but end loading screens. GPUs trace rays of light, and upscalers fill in pixels."
+  }
+ ],
+ "events": [
+  {
+   "year": 1958,
+   "date": "18 October 1958",
+   "era": "lab",
+   "art": "crt",
+   "title": "Tennis on an oscilloscope",
+   "who": "William Higinbotham and Robert Dvorak",
+   "where": "Brookhaven National Laboratory, Upton, New York",
+   "country": "USA",
+   "text": "For a visitors' day, physicist William Higinbotham wired an analog computer to a five-inch oscilloscope. Two people with a knob and a button each hit a glowing dot over a net. Hundreds of visitors queued to play Tennis for Two.",
+   "why": "It is often called the first video game made purely for fun, though it was taken apart afterwards and forgotten for years.",
+   "sources": [
+    1,
+    2
+   ]
+  },
+  {
+   "year": 1962,
+   "date": "April 1962",
+   "era": "lab",
+   "art": "computer",
+   "title": "Spacewar! spreads between computers",
+   "who": "Steve Russell and friends",
+   "where": "MIT, Cambridge, Massachusetts",
+   "country": "USA",
+   "text": "Students at MIT wrote a space duel for the new PDP-1 computer. Two ships circled a star and fired torpedoes. Copies passed from lab to lab wherever a PDP-1 stood.",
+   "why": "It was the first video game played at many computer sites, and it inspired the first arcade machines.",
+   "sources": [
+    3
+   ]
+  },
+  {
+   "year": 1967,
+   "date": "1967–1968",
+   "era": "lab",
+   "art": "tv",
+   "key": true,
+   "title": "The Brown Box plays games on a TV",
+   "who": "Ralph Baer, Bill Harrison and Bill Rusch",
+   "where": "Sanders Associates, Nashua, New Hampshire",
+   "country": "USA",
+   "text": "Engineer Ralph Baer had the idea in August 1966: a box that lets an ordinary television play games. With two colleagues he built a series of prototypes. The seventh, wrapped in wood-grain tape, played ping-pong and target shooting.",
+   "why": "This prototype, now in the Smithsonian, is the ancestor of every home console.",
+   "box": "anatomy",
+   "sources": [
+    4,
+    5
+   ]
+  },
+  {
+   "year": 1972,
+   "date": "September 1972",
+   "era": "first",
+   "art": "tv",
+   "key": true,
+   "title": "The first home console goes on sale",
+   "who": "Magnavox, from Ralph Baer's design",
+   "where": "United States",
+   "country": "USA",
+   "text": "Magnavox sold Baer's design as the Odyssey for $99.95. It had no processor and no memory. It drew three square dots and a line, and players stuck plastic overlays on the TV screen for scenery. About 350,000 were sold.",
+   "why": "Games had left the laboratory and entered the living room.",
+   "sources": [
+    5
+   ]
+  },
+  {
+   "year": 1975,
+   "date": "Christmas 1975",
+   "era": "first",
+   "art": "ball",
+   "title": "Pong comes home",
+   "who": "Atari (Allan Alcorn, Nolan Bushnell)",
+   "where": "Sears stores, United States",
+   "country": "USA",
+   "text": "Atari's arcade hit Pong, released on 29 November 1972, was squeezed onto a single chip for the home. Sears sold about 150,000 in the 1975 holiday season. Unlike the Odyssey, it kept score and made sound.",
+   "why": "It showed that one custom chip could be a whole games machine, and it made consoles a mass product.",
+   "sources": [
+    6,
+    0
+   ]
+  },
+  {
+   "year": 1976,
+   "date": "November 1976",
+   "era": "first",
+   "art": "chip",
+   "key": true,
+   "title": "Games on swappable cartridges",
+   "who": "Jerry Lawson's team at Fairchild; Wallace Kirschner and Lawrence Haskel at Alpex",
+   "where": "Silicon Valley, California",
+   "country": "USA",
+   "text": "The Fairchild Channel F was the first console built round a microprocessor and the first to take ROM cartridges. Jerry Lawson, one of the first Black engineers in the games industry, led the team that turned a prototype into a product.",
+   "why": "From now on a console was a computer that ran whatever program you plugged in.",
+   "box": "anatomy",
+   "sources": [
+    7,
+    8
+   ]
+  },
+  {
+   "year": 1977,
+   "date": "September 1977",
+   "era": "first",
+   "art": "pixels",
+   "key": true,
+   "title": "The Atari 2600",
+   "who": "Atari (Jay Miner, Joe Decuir and others)",
+   "where": "Sunnyvale, California",
+   "country": "USA",
+   "text": "Atari's cartridge console cost $199 and had just 128 bytes of memory. Programmers had to build each line of the picture while the TV's beam was drawing it. It went on to sell about 30 million.",
+   "why": "It made the console a fixture of the home, and Activision, founded in 1979, became the first company to make games for someone else's machine.",
+   "box": "frame",
+   "sources": [
+    9
+   ]
+  },
+  {
+   "year": 1983,
+   "date": "1983–1985",
+   "era": "first",
+   "art": "scales",
+   "title": "The great crash",
+   "who": "The North American games industry",
+   "where": "United States",
+   "country": "USA",
+   "text": "Too many consoles and too many poor games flooded the shops. US home video game revenue fell from about $3.2 billion in 1983 to about $100 million in 1985. Atari buried unsold cartridges in a New Mexico landfill.",
+   "why": "Many people decided consoles were a passing fad. Recovery came from Japan.",
+   "sources": [
+    10
+   ]
+  },
+  {
+   "year": 1983,
+   "date": "15 July 1983",
+   "era": "cart",
+   "art": "crt",
+   "key": true,
+   "title": "The Famicom",
+   "who": "Masayuki Uemura's team at Nintendo",
+   "where": "Kyoto, Japan",
+   "country": "Japan",
+   "text": "Nintendo's Family Computer went on sale in Japan for ¥14,800. Its controller used the flat cross-shaped D-pad that Gunpei Yokoi had designed for handheld games. Renamed the Nintendo Entertainment System, it was tested in New York from 18 October 1985.",
+   "why": "It rebuilt the console business after the crash and sold 61.91 million.",
+   "box": "controller",
+   "sources": [
+    11,
+    12
+   ]
+  },
+  {
+   "year": 1988,
+   "date": "29 October 1988",
+   "era": "cart",
+   "art": "chip",
+   "title": "16 bits and a console war",
+   "who": "Sega",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "Sega's Mega Drive, sold as the Genesis in North America from August 1989, used the 16-bit Motorola 68000 processor found in arcade machines. With Sonic the Hedgehog in 1991 it took on Nintendo head to head.",
+   "why": "Rivalry between console makers became the engine of faster hardware.",
+   "sources": [
+    13
+   ]
+  },
+  {
+   "year": 1989,
+   "date": "21 April 1989",
+   "era": "cart",
+   "art": "phone",
+   "title": "A console in your pocket",
+   "who": "Gunpei Yokoi and Satoru Okada, Nintendo",
+   "where": "Kyoto, Japan",
+   "country": "Japan",
+   "text": "The Game Boy had a plain grey screen and modest parts, chosen on purpose so that four AA batteries would last for hours. Sold with Tetris, it reached 118.69 million units together with the Game Boy Color.",
+   "why": "It proved that cheap, well-understood technology and a great game can beat more powerful rivals.",
+   "sources": [
+    14,
+    12
+   ]
+  },
+  {
+   "year": 1991,
+   "date": "June 1991",
+   "era": "cart",
+   "art": "scissors",
+   "key": true,
+   "title": "Nintendo walks away from Sony",
+   "who": "Hiroshi Yamauchi (Nintendo); Ken Kutaragi (Sony)",
+   "where": "Consumer Electronics Show, Chicago",
+   "country": "USA",
+   "text": "Sony had been building a CD-ROM add-on for the Super Nintendo. At the Consumer Electronics Show in June 1991 it showed a machine called the Play Station. The next day, Nintendo announced it would work with Philips instead.",
+   "why": "Sony engineer Ken Kutaragi persuaded his company to build its own console.",
+   "sources": [
+    15,
+    16
+   ]
+  },
+  {
+   "year": 1994,
+   "date": "3 December 1994",
+   "era": "disc",
+   "art": "wireframe",
+   "key": true,
+   "title": "The PlayStation",
+   "who": "Ken Kutaragi's team at Sony Computer Entertainment",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "Sony's console went on sale in Japan for ¥39,800. It was built to draw 3D worlds out of flat polygons, and its games came on cheap CDs rather than costly cartridges. It reached North America on 9 September 1995.",
+   "why": "It became the first console to ship more than 100 million units, and it made 3D the normal way to play.",
+   "box": "gpu",
+   "sources": [
+    16,
+    17
+   ]
+  },
+  {
+   "year": 1996,
+   "date": "23 June 1996",
+   "era": "disc",
+   "art": "steering",
+   "title": "A thumb stick as standard",
+   "who": "Nintendo",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "The Nintendo 64's controller had an analog stick in the middle, so players could steer through 3D space by degrees. Super Mario 64 showed how. The console kept cartridges, which loaded fast but held little.",
+   "why": "Analog sticks became part of every controller that followed.",
+   "box": "controller",
+   "sources": [
+    18
+   ]
+  },
+  {
+   "year": 1997,
+   "date": "1997",
+   "era": "disc",
+   "art": "motor",
+   "title": "Controllers start to shake",
+   "who": "Nintendo and Sony",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "Nintendo's Rumble Pak, sold in Japan from 27 April 1997, shook the controller with a small motor. On 20 November 1997 Sony launched the DualShock, with two analog sticks and two motors of different sizes in its handles.",
+   "why": "Two sticks and built-in vibration became the standard layout of a gamepad.",
+   "box": "controller",
+   "sources": [
+    19,
+    20
+   ]
+  },
+  {
+   "year": 1998,
+   "date": "27 November 1998",
+   "era": "disc",
+   "art": "telephone",
+   "title": "A console with a modem",
+   "who": "Sega",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "Sega's Dreamcast came with a modem for playing over a telephone line. Phantasy Star Online let console players adventure together across countries. But sales reached only 9.13 million, and in 2001 Sega stopped making consoles.",
+   "why": "It was early proof that consoles would go online.",
+   "sources": [
+    21
+   ]
+  },
+  {
+   "year": 2000,
+   "date": "4 March 2000",
+   "era": "disc",
+   "art": "trophy",
+   "key": true,
+   "title": "The PlayStation 2",
+   "who": "Sony Computer Entertainment",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "The PS2 played DVD films as well as games, at a time when DVD players were expensive. Many families bought one for both. It stayed in production until January 2013.",
+   "why": "With more than 160 million sold by Sony's count, it is the best-selling console so far.",
+   "sources": [
+    22,
+    17,
+    23
+   ]
+  },
+  {
+   "year": 2001,
+   "date": "15 November 2001",
+   "era": "disc",
+   "art": "computer",
+   "key": true,
+   "title": "Microsoft builds a console",
+   "who": "Seamus Blackley, Kevin Bachus, Ted Hase and Otto Berkes, Microsoft",
+   "where": "United States",
+   "country": "USA",
+   "text": "The Xbox was close to a PC inside: a Pentium III processor, an Nvidia graphics chip and an 8 GB hard disk, the first built into a console. It also had a network socket. Xbox Live, its online service, opened on 15 November 2002.",
+   "why": "Hard disks, PC parts and a built-in online service became the pattern for later consoles.",
+   "box": "loading",
+   "sources": [
+    24,
+    25
+   ]
+  },
+  {
+   "year": 2005,
+   "date": "22 November 2005",
+   "era": "online",
+   "art": "heatwaves",
+   "title": "High definition, and a lesson in heat",
+   "who": "Microsoft",
+   "where": "United States",
+   "country": "USA",
+   "text": "The Xbox 360 brought high-definition pictures and wireless controllers as standard. But many consoles failed, showing three red lights. In July 2007 Microsoft extended the warranty to three years and set aside more than $1 billion for repairs.",
+   "why": "It showed how hard it is to keep powerful chips cool in a small box.",
+   "box": "heat",
+   "sources": [
+    26,
+    27
+   ]
+  },
+  {
+   "year": 2006,
+   "date": "11 November 2006",
+   "era": "online",
+   "art": "chip",
+   "title": "The PlayStation 3 and the Cell",
+   "who": "Sony, Toshiba and IBM",
+   "where": "Japan",
+   "country": "Japan",
+   "text": "The PS3 used the Cell, an unusual processor with one main core and several helper cores, and it played Blu-ray discs. It was powerful but hard to program. In 2010 the US Air Force Research Laboratory linked 1,760 PS3s into a supercomputer.",
+   "why": "Its difficulties pushed Sony towards ordinary PC-style chips next time.",
+   "sources": [
+    28
+   ]
+  },
+  {
+   "year": 2006,
+   "date": "19 November 2006",
+   "era": "online",
+   "art": "remote",
+   "key": true,
+   "title": "The Wii gets everyone moving",
+   "who": "Satoru Iwata, Shigeru Miyamoto and Genyo Takeda, Nintendo",
+   "where": "North America, then Japan",
+   "country": "Japan",
+   "text": "Nintendo's Wii was much less powerful than its rivals. Instead it had a remote with an accelerometer and an infrared pointer, so players swung it like a racket. It sold 101.63 million.",
+   "why": "It showed that a new way to play can matter more than faster chips.",
+   "box": "controller",
+   "sources": [
+    29,
+    12
+   ]
+  },
+  {
+   "year": 2013,
+   "date": "15 November 2013",
+   "era": "online",
+   "art": "computer",
+   "title": "The PlayStation 4",
+   "who": "Mark Cerny, lead system architect, Sony",
+   "where": "North America",
+   "country": "Japan",
+   "text": "The PS4 used an 8-core AMD processor of the same family as a PC's, with 8 GB of memory shared between the CPU and the graphics. Games were stored on a 5,400 rpm hard disk. It sold more than 117 million.",
+   "why": "Consoles became tuned, tightly packed PCs, which made games much easier to develop.",
+   "box": "loading",
+   "sources": [
+    30,
+    17
+   ]
+  },
+  {
+   "year": 2017,
+   "date": "3 March 2017",
+   "era": "online",
+   "art": "instant",
+   "key": true,
+   "title": "The Switch: home console and handheld",
+   "who": "Nintendo",
+   "where": "Worldwide",
+   "country": "Japan",
+   "text": "The Nintendo Switch is a tablet built round a mobile chip. It plays on its own screen, or slots into a dock to play on a TV. By 30 June 2026 Nintendo had sold 156.59 million.",
+   "why": "It became Nintendo's best-selling console, second only to the PlayStation 2 by the makers' own counts.",
+   "sources": [
+    31,
+    12
+   ]
+  },
+  {
+   "year": 2020,
+   "date": "18 March 2020",
+   "era": "ssd",
+   "art": "bolt",
+   "title": "The Road to PS5",
+   "who": "Mark Cerny, Sony Interactive Entertainment",
+   "where": "Online presentation",
+   "country": "USA",
+   "text": "In a technical talk, Mark Cerny set out the PlayStation 5's design: an 8-core Zen 2 processor, a ray-tracing GPU, and a custom SSD reading 5.5 GB a second, about a hundred times faster than the PS4's hard disk.",
+   "why": "It moved fast storage from a nice extra to the centre of console design.",
+   "box": "loading",
+   "sources": [
+    32,
+    33
+   ]
+  },
+  {
+   "year": 2020,
+   "date": "12 November 2020",
+   "era": "ssd",
+   "art": "rocket",
+   "key": true,
+   "title": "The PlayStation 5 and Xbox Series X",
+   "who": "Sony; Microsoft",
+   "where": "Worldwide",
+   "country": "Japan",
+   "text": "Microsoft's Xbox Series X and S arrived on 10 November 2020 and Sony's PlayStation 5 on 12 November in the first countries. Both use 8-core AMD Zen 2 processors, ray-tracing graphics and fast SSDs. The PS5's controller added voice-coil haptics and triggers that push back.",
+   "why": "Loading screens shrank from half a minute to a few seconds.",
+   "box": "anatomy",
+   "sources": [
+    33,
+    37,
+    34
+   ]
+  },
+  {
+   "year": 2021,
+   "date": "2 February 2021",
+   "era": "ssd",
+   "art": "earth",
+   "title": "The PS5 reaches India",
+   "who": "Sony India",
+   "where": "India",
+   "country": "India",
+   "text": "After a wait of almost three months, the PlayStation 5 went on sale in India at Rs 49,990, with the Digital Edition listed at Rs 39,990. Pre-orders had opened on 12 January.",
+   "why": "A worldwide chip shortage meant consoles stayed hard to buy for many months, in India and everywhere else.",
+   "sources": [
+    38,
+    33
+   ]
+  },
+  {
+   "year": 2021,
+   "date": "17 February 2021",
+   "era": "ssd",
+   "art": "gear",
+   "title": "Why sticks drift",
+   "who": "iFixit",
+   "where": "San Luis Obispo, California",
+   "country": "USA",
+   "text": "Repair specialists at iFixit took apart the PS5's controller. Its thumb sticks use potentiometers rated for 2 million cycles, which heavy players can reach in a few hundred hours. Wear on the carbon track is one main cause of stick drift.",
+   "why": "It explained a fault that affects controllers from every maker, and renewed interest in magnetic Hall-effect sticks.",
+   "box": "controller",
+   "sources": [
+    35,
+    36
+   ]
+  },
+  {
+   "year": 2024,
+   "date": "7 November 2024",
+   "era": "ssd",
+   "art": "neuralnet",
+   "title": "A console that upscales with machine learning",
+   "who": "Sony Interactive Entertainment",
+   "where": "Worldwide",
+   "country": "Japan",
+   "text": "The PlayStation 5 Pro has a GPU about 45% faster than the PS5's. It also has PSSR, an upscaler that uses a trained neural network to turn a lower-resolution picture into a sharp 4K one.",
+   "why": "Drawing fewer pixels and filling in the rest cleverly is now a main route to better pictures.",
+   "box": "gpu",
+   "sources": [
+    39
+   ]
+  },
+  {
+   "year": 2025,
+   "date": "5 June 2025",
+   "era": "ssd",
+   "art": "phone",
+   "title": "The Switch 2",
+   "who": "Nintendo",
+   "where": "Worldwide",
+   "country": "Japan",
+   "text": "Nintendo's successor to the Switch kept the hybrid idea and ran most Switch games. Nintendo reported 23.68 million sold by 30 June 2026.",
+   "why": "The handheld-and-TV console is now a lasting form, not a one-off.",
+   "sources": [
+    31,
+    12
+   ]
+  }
+ ],
+ "firsts": [
+  {
+   "label": "First game on a screen, made for fun",
+   "value": "1958",
+   "who": "William Higinbotham, USA (widely considered)"
+  },
+  {
+   "label": "First home console on sale",
+   "value": "September 1972",
+   "who": "Magnavox Odyssey, USA"
+  },
+  {
+   "label": "First console with a microprocessor and cartridges",
+   "value": "November 1976",
+   "who": "Fairchild Channel F, USA"
+  },
+  {
+   "label": "First console to ship 100 million",
+   "value": "PlayStation",
+   "who": "Sony, Japan"
+  },
+  {
+   "label": "First console with a built-in hard disk",
+   "value": "2001",
+   "who": "Microsoft Xbox, USA"
+  },
+  {
+   "label": "First console with a modem for online play",
+   "value": "1998",
+   "who": "Sega Dreamcast, Japan"
+  },
+  {
+   "label": "Best-selling console so far",
+   "value": "more than 160 million",
+   "who": "PlayStation 2, Sony"
+  }
+ ],
+ "people": [
+  {
+   "name": "William Higinbotham",
+   "life": "1910 – 1994",
+   "role": "Physicist",
+   "from": "USA",
+   "note": "Built Tennis for Two for a laboratory open day in 1958."
+  },
+  {
+   "name": "Ralph Baer",
+   "life": "1922 – 2014",
+   "role": "Engineer and inventor",
+   "from": "Germany, then USA",
+   "note": "Had the idea of games on a home television and built the Brown Box."
+  },
+  {
+   "name": "Jerry Lawson",
+   "life": "1940 – 2011",
+   "role": "Engineer",
+   "from": "USA",
+   "note": "Led the Fairchild team that brought out the first cartridge console."
+  },
+  {
+   "name": "Nolan Bushnell",
+   "life": "born 1943",
+   "role": "Founder of Atari",
+   "from": "USA",
+   "note": "Co-founded Atari with Ted Dabney and turned Pong into an industry."
+  },
+  {
+   "name": "Jay Miner",
+   "life": "1932 – 1994",
+   "role": "Chip designer",
+   "from": "USA",
+   "note": "Designed the Atari 2600's video chip."
+  },
+  {
+   "name": "Masayuki Uemura",
+   "life": "1943 – 2021",
+   "role": "Engineer",
+   "from": "Japan",
+   "note": "Designed Nintendo's Famicom, sold abroad as the NES."
+  },
+  {
+   "name": "Gunpei Yokoi",
+   "life": "1941 – 1997",
+   "role": "Designer",
+   "from": "Japan",
+   "note": "Created the D-pad and led the design of the Game Boy."
+  },
+  {
+   "name": "Ken Kutaragi",
+   "life": "born 1950",
+   "role": "Engineer and executive",
+   "from": "Japan",
+   "note": "Drove Sony to build the PlayStation after the deal with Nintendo fell through."
+  },
+  {
+   "name": "Shigeru Miyamoto",
+   "life": "born 1952",
+   "role": "Game designer",
+   "from": "Japan",
+   "note": "Created Super Mario and helped shape Nintendo's controllers."
+  },
+  {
+   "name": "Satoru Iwata",
+   "life": "1959 – 2015",
+   "role": "Programmer and president of Nintendo",
+   "from": "Japan",
+   "note": "Steered Nintendo towards the Wii's easy, motion-based play."
+  },
+  {
+   "name": "Mark Cerny",
+   "life": "born 1964",
+   "role": "Game designer and system architect",
+   "from": "USA",
+   "note": "Lead architect of the PlayStation 4 and PlayStation 5."
+  }
+ ],
+ "series": [
+  {
+   "id": "ps",
+   "title": "How many of each PlayStation were sold",
+   "unit": "million consoles",
+   "log": false,
+   "after": "online",
+   "caption": "Sony's own lifetime figures for each home PlayStation, placed at its launch year. The PS5 is still on sale.",
+   "points": [
+    {
+     "year": 1994,
+     "value": 102.4,
+     "label": "PlayStation: more than 102.4 million (Sony, as of March 2012)"
+    },
+    {
+     "year": 2000,
+     "value": 160,
+     "label": "PlayStation 2: more than 160 million (Sony)"
+    },
+    {
+     "year": 2006,
+     "value": 87.4,
+     "label": "PlayStation 3: more than 87.4 million (Sony, as of March 2017)"
+    },
+    {
+     "year": 2013,
+     "value": 117,
+     "label": "PlayStation 4: more than 117 million (Sony)"
+    },
+    {
+     "year": 2020,
+     "value": 95,
+     "label": "PlayStation 5: more than 95 million (Sony, as of 30 June 2026), still on sale"
+    }
+   ]
+  },
+  {
+   "id": "ps5",
+   "title": "PlayStation 5 consoles shipped, running total",
+   "unit": "million consoles",
+   "log": false,
+   "after": "ssd",
+   "caption": "Running total of Sony's reported PS5 shipments at the end of each financial year (31 March), added up from its quarterly figures.",
+   "points": [
+    {
+     "year": 2021,
+     "value": 7.8,
+     "label": "March 2021: 7.8 million"
+    },
+    {
+     "year": 2022,
+     "value": 19.3,
+     "label": "March 2022: 19.3 million"
+    },
+    {
+     "year": 2023,
+     "value": 38.4,
+     "label": "March 2023: 38.4 million"
+    },
+    {
+     "year": 2024,
+     "value": 59.2,
+     "label": "March 2024: 59.2 million"
+    },
+    {
+     "year": 2025,
+     "value": 77.7,
+     "label": "March 2025: 77.7 million"
+    },
+    {
+     "year": 2026,
+     "value": 93.7,
+     "label": "March 2026: 93.7 million"
+    }
+   ]
+  }
+ ],
+ "facts": [
+  "The first home console, the Magnavox Odyssey, had no processor and no memory. It could draw three square dots and one line.",
+  "The Atari 2600 had 128 bytes of memory. A PlayStation 5 has 16 gigabytes: over a hundred million times more.",
+  "In 2010 the US Air Force Research Laboratory built a supercomputer out of 1,760 PlayStation 3 consoles.",
+  "The PlayStation exists because a deal between Sony and Nintendo fell apart at a trade show in June 1991.",
+  "A PlayStation 5's SSD can read in one second what a PlayStation 4's hard disk needed about a minute to read."
+ ],
+ "sources": [
+  {
+   "title": "History of video game consoles",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_video_game_consoles"
+  },
+  {
+   "title": "The First Video Game?",
+   "publisher": "Brookhaven National Laboratory",
+   "url": "https://www.bnl.gov/about/history/firstvideo.php"
+  },
+  {
+   "title": "Tennis for Two",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tennis_for_Two"
+  },
+  {
+   "title": "Spacewar!",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Spacewar!"
+  },
+  {
+   "title": "The Brown Box, 1967–68",
+   "publisher": "Smithsonian National Museum of American History",
+   "url": "https://www.si.edu/object/nmah_1301997"
+  },
+  {
+   "title": "Magnavox Odyssey",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+  },
+  {
+   "title": "Pong",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pong"
+  },
+  {
+   "title": "Fairchild Channel F",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Fairchild_Channel_F"
+  },
+  {
+   "title": "Collection Documents the Career of Video Game Pioneer Jerry Lawson",
+   "publisher": "The Strong National Museum of Play",
+   "url": "https://www.museumofplay.org/blog/collection-documents-the-career-of-video-game-pioneer-jerry-lawson/"
+  },
+  {
+   "title": "Atari 2600",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Atari_2600"
+  },
+  {
+   "title": "Video game crash of 1983",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Video_game_crash_of_1983"
+  },
+  {
+   "title": "Nintendo Entertainment System",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"
+  },
+  {
+   "title": "Dedicated Video Game Sales Units",
+   "publisher": "Nintendo Co., Ltd. (investor relations)",
+   "url": "https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html"
+  },
+  {
+   "title": "Sega Genesis",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Sega_Genesis"
+  },
+  {
+   "title": "Game Boy",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Game_Boy"
+  },
+  {
+   "title": "Super NES CD-ROM",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Super_NES_CD-ROM"
+  },
+  {
+   "title": "PlayStation (console)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_(console)"
+  },
+  {
+   "title": "Business Data and Sales",
+   "publisher": "Sony Interactive Entertainment",
+   "url": "https://sonyinteractive.com/en/our-company/business-data-sales/"
+  },
+  {
+   "title": "Nintendo 64",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nintendo_64"
+  },
+  {
+   "title": "Rumble Pak",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Rumble_Pak"
+  },
+  {
+   "title": "DualShock",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/DualShock"
+  },
+  {
+   "title": "Dreamcast",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Dreamcast"
+  },
+  {
+   "title": "PlayStation 2",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_2"
+  },
+  {
+   "title": "Sony website chronicles 30 years of PlayStation, says PS2 sold 160 million",
+   "publisher": "Video Games Chronicle",
+   "url": "https://www.videogameschronicle.com/news/sony-website-chronicles-30-years-of-playstation-says-ps2-sold-160-million"
+  },
+  {
+   "title": "Xbox (console)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xbox_(console)"
+  },
+  {
+   "title": "Xbox Live to Launch on One-Year Anniversary of Console Launch (13 August 2002)",
+   "publisher": "Microsoft News",
+   "url": "https://news.microsoft.com/source/2002/08/13/xbox-live-to-launch-on-one-year-anniversary-of-console-launch/"
+  },
+  {
+   "title": "Xbox 360",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xbox_360"
+  },
+  {
+   "title": "Microsoft Expands Xbox 360 Warranty, Takes Billion Dollar Hit",
+   "publisher": "Shacknews",
+   "url": "https://shacknews.com/article/47784/microsoft-expands-xbox-360-warranty"
+  },
+  {
+   "title": "PlayStation 3",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_3"
+  },
+  {
+   "title": "Wii",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Wii"
+  },
+  {
+   "title": "PlayStation 4",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_4"
+  },
+  {
+   "title": "Nintendo Switch",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Nintendo_Switch"
+  },
+  {
+   "title": "Unveiling new details of PlayStation 5: hardware technical specs (18 March 2020)",
+   "publisher": "PlayStation Blog, Sony Interactive Entertainment",
+   "url": "https://blog.playstation.com/2020/03/18/unveiling-new-details-of-playstation-5-hardware-technical-specs/"
+  },
+  {
+   "title": "PlayStation 5",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_5"
+  },
+  {
+   "title": "PlayStation 5 Teardown",
+   "publisher": "iFixit",
+   "url": "https://www.ifixit.com/Teardown/PlayStation+5+Teardown/138280"
+  },
+  {
+   "title": "Here’s Why PS5 Joysticks Drift (and Why They’ll Only Get Worse) (17 February 2021)",
+   "publisher": "iFixit",
+   "url": "https://www.ifixit.com/News/48944/heres-why-ps5-joysticks-drift-and-why-theyll-only-get-worse"
+  },
+  {
+   "title": "DualSense",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/DualSense"
+  },
+  {
+   "title": "Xbox Series X and Series S",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S"
+  },
+  {
+   "title": "PS5 finally launching in India on February 2, pre-orders begin January 12, 2021",
+   "publisher": "Digit",
+   "url": "https://www.digit.in/news/gaming/ps5-finally-launching-in-india-on-february-2-pre-orders-begin-january-12-2021-57877.html"
+  },
+  {
+   "title": "PlayStation 5 Pro",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/PlayStation_5_Pro"
+  }
+ ]
+}
